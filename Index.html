@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--Anpassar webbsidan för Edge brauser-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Optimal anpassning till mobila skärmar-->
+      <link rel="stylesheet" type="text/css" href="CSS/style.css"> <!--Länken till vår CSS-filen-->
+      <title>Förskolan Guldharpan - Toner av kunskap, självständighet och gemenskap</title>
+      <script src="https://kit.fontawesome.com/797a5d86dd.js" crossorigin="anonymous"></script>
+      <!--Scripts attribut source visar att vi använder fri ikoner från Font Awesome bibliotek  -->
+      <link href="https://fonts.cdnfonts.com/css/ink-free" rel="stylesheet"> <!--ink free font-->
+  </head>
+  
+<body>
+    
+      <a class="skip-link" href="#valkommen">Gå till huvudinnehåll</a> <!--länk till huvudinnehåll på sidan-->
+
+<div class="Navigation"> <!--kontainer till global navigation-->
+            <a href="Index.html" class="logo">
+            <img src="Bilder/Logga.png" alt="logotyp av förskolan"> <!--länk till startsidan ligger under logotyp-->
+            </a>
+            <!--checkbox och label använts för att skapa hamburgermeny med hjälp av CSS-->
+            <input type="checkbox" name="toggleMenu" id="toggleMenu" class="toggleMenu">
+            <label for="toggleMenu" class="toggleLabel">
+              <span class="burgerLine"></span>
+              <span class="burgerLine"></span> <!--tre span-element blir linjer i hamburgare med hjälp av CSS-->
+              <span class="burgerLine"></span>
+              </label>
+          <nav class="menyWrapper"> <!--Navigation inehåller li med länkar till undersidor-->
+            <ul class="meny">
+              <li><a href="Undersidor/Forskoleplats.html"  title="Ställ barn i kö till förskola">Ställ ditt barn i kö</a></li>
+              <li><a href="Undersidor/Dagguldharpan.html"  title="Dagsrutiner på Guldharpan">En dag på Guldharpan</a></li>
+              <li><a href="Undersidor/Inskolning.html"  title="Inskolning på Guldharpan">Om inskolning</a></li>
+              <li><a href="Undersidor/Bilder.html" title="Bildgalleri av förskolans verksamhet">Bildgalleri</a></li>
+              <li><a href="Undersidor/Blogg.html" class="fas fa-user" title="Ikon för att logga in" ></a></li>
+            </ul>
+              </nav>
+          </div>
+
+            
+      <div class="FlexHeader">Toner av kunskap, självständighet och gemenskap
+      </div>
+
+      <div class="FlexBilder">
+        <div class="slider">
+          <div class="slides">
+            <div id="slides__1" class="slide">
+              <span class="slide__text"></span>
+              <img src="Bilder/tjejgitarr.jpg" alt="tjej som spelar gitarr"> <!--Pixabay https://pixabay.com/sv/photos/lycklig-roligt-barn-musiker-3046564/-->
+              <a class="slide__prev" href="#slides__4" title="Next"></a>
+              <a class="slide__next" href="#slides__2" title="Next"></a>
+            </div>
+            <div id="slides__2" class="slide">
+              <span class="slide__text"></span>
+              <img src="Bilder/miniroris.jpg" alt="Barnen gympar miniröris"> <!--Pexels https://www.pexels.com/sv-se/foto/karlek-manniskor-sot-skola-8613368/-->
+              <a class="slide__prev" href="#slides__1" title="Prev"></a>
+              <a class="slide__next" href="#slides__3" title="Next"></a>
+            </div>
+            <div id="slides__3" class="slide">
+              <span class="slide__text"></span>
+              <img src="Bilder/barndansar.jpg" alt="Barn med maracas"> <!--Pexels https://www.pexels.com/sv-se/foto/musik-fargrik-ungar-barn-8535238/ -->
+              <a class="slide__prev" href="#slides__2" title="Prev"></a>
+              <a class="slide__next" href="#slides__4" title="Next"></a>
+            </div>
+            <div id="slides__4" class="slide">
+              <span class="slide__text"></span>
+              <img src="Bilder/musik.jpg" alt="Barn dansar"> <!--Pexels https://www.pexels.com/sv-se/foto/sot-skola-roligt-ungar-8422104/-->
+              <a class="slide__prev" href="#slides__3" title="Prev"></a>
+              <a class="slide__next" href="#slides__1" title="Prev"></a>
+            </div>
+          </div>
+          <div class="slider__nav">
+              <a class="slider__navlink" href="#slides__1"></a>
+              <a class="slider__navlink" href="#slides__2"></a>
+              <a class="slider__navlink" href="#slides__3"></a>
+              <a class="slider__navlink" href="#slides__4"></a>
+          </div>
+        </div>
+      </div> <!--Här stängs container för bildspel-->
+
+
+      <div class="FlexText"> <!--flexcontainer för text om förskola-->
+            <input type="checkbox" id="check">
+              <h1 id="valkommen">Välkommen till musikförskolan <span id="candara">Guldharpan!</span> </h1>
+                <p>
+                  Musikförskolan Guldharpan ligger i centrala Borås. Lärande, glädje, musik och trygghet är nyckelord på vår förskola.  
+                  Förskolans musikprofil ger goda möjligheter för att utveckla barnens skapande förmåga, kreativitet och känsla för takt och rytm.  
+                </p>
+               <p class="textContent1"> På våra lekfulla musiklektioner provar barnen att spela olika musikinstrument, dansa och sjunga.  
+                  Musiken är ledtråden i vår verksamhet men vi har också många roliga aktiviteter i ateljén, vårt bibliotek, lekrummet och
+                  ute på gården. Vi på Guldharpan satsar på arbete i mindre barngrupper för att det innebär både tryggare miljö och mer pedagogiskt stöd för 
+                  dina barn. Det finns två barngrupper på Guldharpan – Tamburin (för barn som är 1–3 år gamla) och Maracas 
+                  (för barn som är 3–6 år gamla).</p>
+                
+                  <p class="textContent1">
+                  Vi är alltid glada att få se familjer som håller på att välja förskola på våra studiebesök. Lär känna oss närmare och välj en trygg förskola med musik i själen för ditt barn! 
+                </p>
+                <label id="lasmer" for="check">Läs mer om Guldharpan</label>
+      </div>
+
+
+              <!--container för bottommeny-->
+      <div class="FlexMeny FlexSideTwo">
+              <div class="row">
+                <div class="column1">
+                  <a href="Undersidor/Dagguldharpan.html" title="Dagsrutiner på Guldharpan">En dag på Guldharpan </a> 
+                </div>
+                <div class="column2">
+                  <a href="Undersidor/Forskoleplats.html" title="Ställ dit barn i kö till förskola">Ställ ditt barn i kö </a> 
+                </div>
+              </div>
+              <div class="row">
+                <div class="column2">
+                 <a href="Undersidor/Bilder.html" title="Bildgaller">Bildgalleri</a>
+                </div>
+                <div class="column1">
+                  <a href="Undersidor/Inskolning.html" title="Om inskolning på Guldharpan">Om inskolning</a>
+                </div>
+              </div>
+      </div> <!--Här stängs kontainer för bottommeny-->
+      
+
+      <div class="FlexForm"> <!--Kontainer för formulär för att bokastudiebesök-->
+              <h2>Boka studiebesök:</h2>
+                  <form action="https://example.edu/"> <!--Action attribut är example domain-->
+                        <label for="name">Ditt namn:</label><br>
+                        <input type="text" id="name" name="name"><br>
+                        <label for="email">E-post:</label><br>
+                        <input type="email" id="email" name="email"> <!--inputs typ email för att skriva in e-post adress-->
+                        <br>
+                        Skriv här när du vill besöka Guldharpan:
+                        <input
+                        id="besok"
+                        name="besok"
+                        type="date"
+                        required
+                        aria-required="true"
+                      >
+                        <br>
+                        <input class="submit" type="submit" value="Skicka in"> <!--Inputs class "submit" för att styla knappen i css. Submit attributs value är Skicka in för att just den texten ska placeras på knappen-->
+                        </form><!--Här stängs form-element-->
+      </div> <!--Här stängs kontainer för formulär-->
+
+
+        <footer> <!--I footer-element finns adress samt FontAwesome ikon till Facebook-->
+                  <address class="adress">
+                    Adress:
+                    Guldharpan <br>
+                    Guldharpisvägen 1111 <br>
+                    511 22 Borås
+                    </address>
+                    <p>Tel:
+                    <a href="tel:0702520000">0702520000</a>
+                  </p>
+                  <div> 
+                 Gå med i vår Facebook-grupp:
+                <a href="https://sv-se.facebook.com/" class="fab fa-facebook-square" title="Ikon för Facebook-sida"></a> 
+                <!--Facebooks ikon har laggts till a-element som class -->
+                </div>
+        </footer> 
+
+</body>
+</html>
